@@ -1,0 +1,227 @@
+body {
+background: url(./assets/bg\ dark\ cmsp.jpg)no-repeat top center/cover;  
+}
+
+#container {
+
+margin: 56px 426px auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#profile img {
+width: 100px;
+height: auto;
+border-radius: 12px;
+border: 4px solid rgba(255, 255, 255, 0.5);
+margin-bottom: 26px;
+}
+
+
+/*  items do From Uiverse para buttoes centrais */ 
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 90px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;  
+  
+}
+.card1 ion-icon {
+  font-size: 30px; /* Ajuste o tamanho do ícone */
+  margin-top: 17px; /* Ajusta a posição vertical do ícone */
+  margin-left: 12px; /* Ajusta a posição horizontal do ícone */
+}
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 90px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+.card2 ion-icon {
+  font-size: 30px; /* Ajuste o tamanho do ícone */
+  margin-top:20px; /* Ajusta a posição vertical do ícone */
+  margin-left: -5px; /* Ajusta a posição horizontal do ícone */
+}
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -.9em;
+  fill: #bd2612;
+}
+
+.card3 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 90px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+.card3 ion-icon {
+  font-size: 30px; /* Ajuste o tamanho do ícone */
+  margin-top:-50px; /* Ajusta a posição vertical do ícone */
+  margin-left: 14px; /* Ajusta a posição horizontal do ícone */
+}
+.github {
+  margin-top: -.6em;
+  margin-left: 1.2em;
+}
+
+.card4 {
+  width: 90px;
+  height: 90px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 90px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.card4 ion-icon {
+  font-size: 30px; /* Ajuste o tamanho do ícone */
+  margin-top: -21px; /* Ajusta a posição vertical do ícone */
+  margin-left: -4px; /* Ajusta a posição horizontal do ícone */
+}
+
+.discord {
+  margin-top: -.9em;
+  margin-left: -1.2em;
+  fill: #8c9eff;
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: rgb(16, 184, 128);
+}
+
+.card3:hover .github {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+  fill: white;
+}
+
+/* botão do chat gpt */
+
+/* From Uiverse.io by Gaurav-WebDev */ 
+
+.button {
+  display: block;
+  margin: 49px auto; /* Centraliza horizontalmente e dá um espaço em cima e embaixo */
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+
+.button {
+  height: 50px;
+  width: 200px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #252525;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-txt {
+  z-index: 1;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+.type1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #333;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 200px #252525;
+  color: #fff;
+  border: none;
+}
+
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
